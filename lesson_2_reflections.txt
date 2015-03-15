@@ -6,3 +6,18 @@ Working area is where current versions are stored.
 Staging areas are where files are stored before being commited.
 Repository holds everything.
 Give you a chance to organize even is you made changes pass a logical point.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding only the files that fit withing the logical changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I have and Idea which is not part of the main objective, I could branch off and try it out without stoping progress to the master branch.
+
+How do the diagrams help you visualize the branch structure?
+It helps you understand where logicaly a commit is located in the changes history of the project.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging introduces the changes of a branch into another, effectivly adding a features from that branch. Becaus of the prvious explination.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git cannot choose which codes to delete of add if their is a conflict (a change in code on the same line by multiple contributers)
